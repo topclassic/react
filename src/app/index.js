@@ -1,13 +1,20 @@
 
-import React from "react";
-import ReactDOM from 'react-dom';
+import React from "react"
+import ReactDOM from "react-dom"
+
+import { Header } from "./components/header"
+import { Main } from "./components/Main"
 
 class App extends React.Component {
     render() {
         return (
             <div>
-                <h2>Your Name</h2>
-                <p>Chotipat</p>
+                <div>
+                    <Header/>
+                </div>
+                <div>
+                    <Main/>
+                </div>
             </div>
         )
     }
