@@ -19,4 +19,4 @@ class App extends React.Component {
         )
     }
 }
-ReactDOM.render(<div> <App /> <App /> </div>,document.getElementById('MultiComp'))
+ReactDOM.render(<div> <App /> </div>,document.getElementById('MultiComp'))

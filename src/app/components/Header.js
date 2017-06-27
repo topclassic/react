@@ -4,9 +4,13 @@ export class Header extends React.Component{
 
     render(){
         return(
-            <div>
-                <h1>1</h1>
-            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Skill</a></li>
+                </ul>
+            </nav>
         )
     }
 }

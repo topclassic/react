@@ -10,6 +10,7 @@ var config = {
         filename: "bundle.js",
         publicPath: "/app/"
     },
+
     module: {
         loaders: [
             {
