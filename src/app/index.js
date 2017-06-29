@@ -5,6 +5,7 @@ import ReactDOM from "react-dom"
 import { Header } from "./components/header"
 import { DynamicData } from "./components/DynamicData"
 import { Props } from "./components/Props"
+import { Events } from "./components/Events"
 
 class App extends React.Component {
     render() {
@@ -22,6 +23,10 @@ class App extends React.Component {
                 </div>
                 <div>
                     <Props title="007" user={user}/>
+
+                </div>
+                <div>
+                    <Events age="26"/>
 
                 </div>
             </div>
