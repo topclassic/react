@@ -3,7 +3,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 import { Header } from "./components/header"
-import { Main } from "./components/Main"
+import { DynamicData } from "./components/DynamicData"
 
 class App extends React.Component {
     render() {
@@ -13,7 +13,7 @@ class App extends React.Component {
                     <Header/>
                 </div>
                 <div>
-                    <Main/>
+                    <DynamicData/>
                 </div>
             </div>
         )

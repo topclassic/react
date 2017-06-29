@@ -10,7 +10,6 @@
   },
   "author": "CHOTIPAT POOWONGTHANARAT",
   "license": "ISC",
-
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.0",
