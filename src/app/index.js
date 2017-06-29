@@ -6,6 +6,7 @@ import { Header } from "./components/header"
 import { DynamicData } from "./components/DynamicData"
 import { Props } from "./components/Props"
 import { Events } from "./components/Events"
+import { State } from "./components/State"
 
 class App extends React.Component {
     render() {
@@ -23,11 +24,12 @@ class App extends React.Component {
                 </div>
                 <div>
                     <Props title="007" user={user}/>
-
                 </div>
                 <div>
-                    <Events age="26"/>
-
+                    <Events age={26}/>
+                </div>
+                <div>
+                    <State initAge ={26}/>
                 </div>
             </div>
         )

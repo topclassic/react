@@ -17,6 +17,7 @@ export class Events extends React.Component{
 
         return(
             <div>
+                <p>{this.age}</p>
                 <button onClick={this.edit}>Edit</button>
                 <button onClick={this.makeAge}>MakeAge</button>
             </div>
