@@ -4,6 +4,7 @@ import ReactDOM from "react-dom"
 
 import { Header } from "./components/header"
 import { DynamicData } from "./components/DynamicData"
+import { Props } from "./components/Props"
 
 class App extends React.Component {
     render() {
@@ -15,8 +16,13 @@ class App extends React.Component {
                 <div>
                     <DynamicData/>
                 </div>
+                <div>
+                    <Props title="Gravity"/>
+                    <Props title="007"/>
+
+                </div>
             </div>
         )
     }
 }
-ReactDOM.render(<div> <App /> </div>,document.getElementById('MultiComp'))
+ReactDOM.render(<div> <App/> </div>,document.getElementById('MultiComp'))
