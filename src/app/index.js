@@ -8,6 +8,10 @@ import { Props } from "./components/Props"
 
 class App extends React.Component {
     render() {
+        var user = {
+            name: "Top",
+            age: ["26","OK","Yes"]
+        }
         return (
             <div>
                 <div>
@@ -17,8 +21,7 @@ class App extends React.Component {
                     <DynamicData/>
                 </div>
                 <div>
-                    <Props title="Gravity"/>
-                    <Props title="007"/>
+                    <Props title="007" user={user}/>
 
                 </div>
             </div>
